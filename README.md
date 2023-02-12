@@ -16,7 +16,7 @@ For User -> access to only GET methods
     use employeeDatabase;
    
    
-		-- insert data into employees table 
+  -- insert data into employees table 
 INSERT INTO employees (id, email, first_name, last_name) 
 VALUES (1, 'pooja@gmail.com','pooja','chavali'),
 	   (2, 'sneha@gmail.com','sneha','sri'),
@@ -26,12 +26,12 @@ VALUES (1, 'pooja@gmail.com','pooja','chavali'),
        (6, 'kiran@gmail.com','kiran','jajula');
        
  
-       -- insert data into role table
+   -- insert data into role table
 INSERT INTO role (id, name)
 VALUES (1, 'ADMIN'),
 	   (2, 'USER');
 
-	   -- insert data into user table
+    -- insert data into user table
 	   
 INSERT INTO user (id, password, username)
 VALUES (1, '$2a$08$Y09I.9niV5KM8Y/NhZ.pb.QD03JityCaq/AIe5R01qbnvKrsXpUMW', 'admin' ),
@@ -42,7 +42,7 @@ VALUES (1, '$2a$08$Y09I.9niV5KM8Y/NhZ.pb.QD03JityCaq/AIe5R01qbnvKrsXpUMW', 'admi
 	   --password for user  -->user
  	   --
  	   
-	-- insert data into users_roles table   
+    -- insert data into users_roles table   
 INSERT INTO users_roles(user_id, role_id)
 VALUES (1, 1),
 	   (2, 2);  
